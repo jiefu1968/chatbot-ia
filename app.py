@@ -42,35 +42,20 @@ if pergunta := st.chat_input("Digite sua pergunta aqui..."):
                 "content": resposta_texto
             })
 
-if st.button("🧹 Começar nova conversa"):
+if st.button("Comecar nova conversa"):
     st.session_state.mensagens = []
     st.rerun()
 ```
 
 ---
 
-## 🎯 COMO APLICAR NO GITHUB
-
-### **Passo a Passo:**
+## 📝 COMO APLICAR (PASSO A PASSO)
 ```
-1. Vá para: github.com
-2. Entre no repositório: chatbot-ia
-3. Clique no arquivo: app.py
-4. Clique no ícone de LÁPIS ✏️ (Edit this file)
-5. Aperte Command + A (selecionar tudo)
-6. Aperte Delete (apagar tudo)
-7. Cole o código acima (Command + V)
-8. Role até o final
-9. Digite na caixa: Codigo corrigido sem erros
-10. Clique em: [Commit changes] (botão verde)
-```
-
----
-
-## ⏰ AGUARDAR
-```
-Após salvar:
-- Aguarde 30-60 segundos
-- O Streamlit atualiza automaticamente
-- Seu chatbot vai reiniciar
-- Teste novamente!
+1. GitHub → seu repositório chatbot-ia
+2. Clique em: app.py
+3. Clique no lápis para editar
+4. Command + A (selecionar tudo)
+5. Delete (apagar tudo)
+6. Command + V (colar o código acima)
+7. Scroll para baixo
+8. Commit changes
